@@ -11,7 +11,7 @@
         >
         <ImageView
             style="@style/ActionBar_LeftImg_Style"
-            android:src="@drawable/闪电"/>
+            android:src="@drawable/lighting"/>
         <TextView
             android:id="@+id/title"
             style="@style/ActionBar_CenterText_Style"
@@ -22,7 +22,7 @@
             android:layout_height="fill_parent" />
         <ImageView
             style="@style/ActionBar_LeftImg_Style"
-            android:src="@drawable/单选图标蓝色"/>
+            android:src="@drawable/one_option_blue"/>
         <TextView
             android:id="@+id/title1"
             style="@style/ActionBar_CenterText_Style"
@@ -42,7 +42,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="fill_parent"
-                android:src="@drawable/默认头像"
+                android:src="@drawable/default_head"
                 />
              <LinearLayout
                  android:layout_width="80dp"
@@ -75,7 +75,7 @@
          <LinearLayout
              android:layout_width="fill_parent"
              android:layout_height="fill_parent"
-             android:background="@drawable/电话按钮"
+             android:background="@drawable/phone_button"
              >
              <ImageView
                  android:layout_width="30dp"
@@ -104,7 +104,7 @@
 <ImageView
     android:layout_width="20dp"
     android:layout_height="fill_parent"
-    android:src="@drawable/预约用车图标"
+    android:src="@drawable/order_car_icon"
     />
 <TextView
     android:layout_width="90dp"

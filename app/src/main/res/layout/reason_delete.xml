@@ -8,7 +8,7 @@
 
         <ImageView
             style="@style/ActionBar_LeftImg_Style"
-            android:src="@drawable/大箭头"/>
+            android:src="@drawable/big_arrow"/>
         <TextView
             android:id="@+id/title"
             style="@style/ActionBar_CenterText_Style"
@@ -58,7 +58,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="fill_parent"
-            android:src="@drawable/单选图标绿色"/>
+            android:src="@drawable/one_option_green"/>
 
     </LinearLayout>
     <View
@@ -105,7 +105,7 @@
 
             android:layout_width="20dp"
             android:layout_height="fill_parent"
-            android:src="@drawable/单选图标绿色"
+            android:src="@drawable/one_option_green"
             />
         <TextView
             android:layout_width="60dp"

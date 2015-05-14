@@ -26,7 +26,7 @@
            />
         <ImageView
             style="@style/Twotext_end"
-            android:src="@drawable/小箭头"/>
+            android:src="@drawable/small_arrow"/>
 
 
 
@@ -85,7 +85,7 @@
 
         android:layout_width="20dp"
         android:layout_height="fill_parent"
-        android:src="@drawable/多选图标蓝色"
+        android:src="@drawable/multiple_option_blue"
         />
     <TextView
         android:layout_width="35dp"

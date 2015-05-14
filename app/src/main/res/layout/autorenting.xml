@@ -8,7 +8,7 @@
 
         <ImageView
             style="@style/ActionBar_LeftImg_Style"
-            android:src="@drawable/大箭头"/>
+            android:src="@drawable/big_arrow"/>
         <TextView
             android:id="@+id/title"
             style="@style/ActionBar_CenterText_Style"
@@ -45,7 +45,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="fill_parent"
-            android:src="@drawable/定位图标"/>
+            android:src="@drawable/location_icon"/>
 
     </LinearLayout>
     <View
@@ -76,7 +76,7 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="fill_parent"
-            android:src="@drawable/下拉图标"/>
+            android:src="@drawable/dropdown_icon"/>
 
     </LinearLayout>
 
@@ -95,7 +95,7 @@
 
             android:layout_width="20dp"
             android:layout_height="fill_parent"
-            android:src="@drawable/单选图标黄色"
+            android:src="@drawable/one_option_yellow"
             />
         <TextView
             android:layout_width="60dp"

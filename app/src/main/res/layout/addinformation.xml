@@ -56,7 +56,7 @@
 
                android:layout_width="20dp"
                android:layout_height="fill_parent"
-               android:src="@drawable/单选图标蓝色"
+               android:src="@drawable/one_option_blue"
                />
            <TextView
                android:layout_width="40dp"
@@ -75,7 +75,7 @@
 
                 android:layout_width="20dp"
                 android:layout_height="fill_parent"
-                android:src="@drawable/单选图标蓝色"
+                android:src="@drawable/one_option_blue"
                 />
             <TextView
                 android:layout_width="40dp"

@@ -4,7 +4,7 @@
 
     <ImageView
         style="@style/ActionBar_LeftImg_Style"
-        android:src="@drawable/大箭头"/>
+        android:src="@drawable/big_arrow"/>
     <TextView
         android:id="@+id/title"
         style="@style/ActionBar_CenterText_Style"
