@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="fill_parent"
+        android:gravity="left|bottom"
+        android:text="超时提示"
+
+        />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:src="@drawable/one_option_yellow"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="您现在用车已超过24小时，将进入"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|top"
+            android:text="按天收费"
+
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|top"
+             android:textColor="@color/red"
+            android:text="150元/天"
+
+            />
+    </LinearLayout>
+</LinearLayout>

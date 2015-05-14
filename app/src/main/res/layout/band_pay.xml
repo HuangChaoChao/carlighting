@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/ActionBar_Style">
+
+        <ImageView
+            style="@style/ActionBar_LeftImg_Style"
+            android:src="@drawable/big_arrow"/>
+        <TextView
+            android:id="@+id/title"
+            style="@style/ActionBar_CenterText_Style"
+            android:text="银行卡付款"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center_horizontal"
+            android:text="支付自驾租车费用"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/multiple_option_red"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="共计  "/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:text="120"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+
+            android:text="元"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/split"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="请填入银行卡密码"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/password">
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="350dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            />
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/one_option_yellow"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:textColor="@color/green"
+            android:gravity="center_vertical|left"
+            android:text="立即支付"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
