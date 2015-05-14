@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/ActionBar_Style">
+
+        <ImageView
+            style="@style/ActionBar_LeftImg_Style"
+            android:src="@drawable/大箭头"/>
+        <TextView
+            android:id="@+id/title"
+            style="@style/ActionBar_CenterText_Style"
+            android:text="自驾租车"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+        <TextView
+            style="@style/order_text"
+
+            android:text="取车地址"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="360dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center"
+
+            android:text="自动定位地址"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/定位图标"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="360dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center"
+
+            android:text="车牌号限行"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/收起图标"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+
+            android:text="无要求"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="360dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/yellow"
+            android:text="高峰不限行"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/单选图标黄色"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+
+            android:text="高峰不限行"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+
+            android:text="当日景区不限行"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            />
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/单选图标黄色"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+
+            android:gravity="center_vertical|left"
+            android:text="确定"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

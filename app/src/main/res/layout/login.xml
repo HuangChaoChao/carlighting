@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+
+    <include layout="@layout/loginhead"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+        <TextView
+            style="@style/Twotext_left"
+            android:text="中国大陆"
+            />
+        <TextView
+            style="@style/Twotext_center"
+
+            />
+        <TextView
+            style="@style/Twotext_right"
+            android:text="选择地区"
+           />
+        <ImageView
+            style="@style/Twotext_end"
+            android:src="@drawable/小箭头"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+        <TextView
+            style="@style/Twotext1_left"
+            android:text="+86"
+            />
+
+        <TextView
+            style="@style/Twotext1_right"
+            android:text="输入手机号"
+            />
+        <ImageView
+            style="@style/Twotext1_end"
+            android:src="@drawable/iphone"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+        <TextView
+            style="@style/Twotext2_left"
+            android:text="输入您收到的验证码"
+            />
+
+        <TextView
+            style="@style/Twotext2_end"
+            android:text="获取验证码"
+            android:textColor="@color/blue"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"></LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="30dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="fill_parent" />
+    <ImageView
+
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/多选图标蓝色"
+        />
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="fill_parent"
+
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/blue"
+        />
+    </LinearLayout>
+
+</LinearLayout>

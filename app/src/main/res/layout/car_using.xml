@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/ActionBar_Style">
+
+        <ImageView
+            style="@style/ActionBar_LeftImg_Style"
+            android:src="@drawable/大箭头"/>
+        <TextView
+            android:id="@+id/title"
+            style="@style/ActionBar_CenterText_Style"
+            android:text="自驾用车"
+            />
+
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom|center_horizontal"
+        android:text="10:50开始"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/预约用车图标"
+            />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="已租  "/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:text="08"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+
+            android:text="小时"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="25dp"
+            android:text="30"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="@color/blue"
+
+            android:text="分钟"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="车辆租赁价格"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="车辆25元/小时 司机代价15元/小时"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="超过时间5分钟内不计，0.5小时按半小时收费"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="超过时间35分钟，小时收费"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|bottom"
+            android:text="车损费用"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right|bottom"
+            android:textColor="@color/red"
+            android:text="100元（轮胎爆胎）"
+            />
+    </LinearLayout>
+</LinearLayout>

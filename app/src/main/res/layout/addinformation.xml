@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+
+    <include layout="@layout/addinformationhead"/>
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="身份证"
+       />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="输入身份证"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="驾驶证"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="输入驾驶证"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"></LinearLayout>
+    <LinearLayout
+        style="@style/CommonBar_InLinearLayout_Style">
+       <LinearLayout
+           android:layout_width="200dp"
+           android:layout_height="fill_parent">
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="fill_parent" />
+           <ImageView
+
+               android:layout_width="20dp"
+               android:layout_height="fill_parent"
+               android:src="@drawable/单选图标蓝色"
+               />
+           <TextView
+               android:layout_width="40dp"
+               android:layout_height="fill_parent"
+               android:gravity="center"
+               android:text="确定"
+               />
+           </LinearLayout>
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="fill_parent" />
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/单选图标蓝色"
+                />
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="取消"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
