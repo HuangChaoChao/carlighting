@@ -4,31 +4,34 @@
     android:orientation="vertical"
     android:background="@color/lightgray">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="35dp"
         android:background="@color/darkcyan"
         >
         <ImageView
+            android:id="@+id/back"
             style="@style/ActionBar_LeftImg_Style"
             android:src="@drawable/lighting"/>
         <TextView
             android:id="@+id/title"
+            android:layout_toRightOf="@+id/back"
+            android:layout_marginLeft="10dp"
             style="@style/ActionBar_CenterText_Style"
             android:text="等待送车"
             />
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="fill_parent" />
-        <ImageView
-            style="@style/ActionBar_LeftImg_Style"
+            android:layout_toLeftOf="@+id/title1"
+            style="@style/ActionBar_RightImg_Style"
             android:src="@drawable/one_option_blue"/>
         <TextView
             android:id="@+id/title1"
+            android:layout_alignParentRight="true"
             style="@style/ActionBar_CenterText_Style"
+            android:layout_marginRight="15dp"
             android:text="取消"
             />
-    </LinearLayout>
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="480dp"
