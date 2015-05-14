@@ -3,10 +3,12 @@
     style="@style/ActionBar_Style">
 
     <ImageView
+        android:id="@+id/back"
         style="@style/ActionBar_LeftImg_Style"
         android:src="@drawable/big_arrow"/>
     <TextView
         android:id="@+id/title"
+        android:layout_toRightOf="@+id/back"
         style="@style/ActionBar_CenterText_Style"
         android:text="完善信息"
         />

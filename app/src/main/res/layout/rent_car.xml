@@ -5,13 +5,52 @@
     android:background="@drawable/map">
 
     <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@color/darkcyan"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/leftImg"
+            style="@style/ActionBar_LeftImg_Style"
+            android:src="@drawable/lighting"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_toRightOf="@+id/leftImg"
+            style="@style/ActionBar_CenterText_Style"
+            android:layout_marginLeft="10dp"
+            android:text="闪电租车"
+            />
+
+        <ImageView
+            android:id="@+id/rightImg"
+            style="@style/ActionBar_RightImg_Style"
+            android:layout_toLeftOf="@+id/title1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:id="@+id/title1"
+            style="@style/ActionBar_CenterText_Style"
+            android:text="登录"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:background="#efffffff"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:layout_below="@+id/rl1">
 
         <ImageView
             android:id="@+id/location_icon"
