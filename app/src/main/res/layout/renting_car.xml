@@ -4,7 +4,9 @@
     android:orientation="vertical"
     android:background="@color/lightgray">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        style="@style/ActionBar_Style">
+        style="@style/ActionBar_Style"
+        android:clickable="true"
+        android:onClick="click_to_back">
 
         <ImageView
             android:id="@+id/back"
@@ -12,6 +14,7 @@
             android:src="@drawable/big_arrow"/>
         <TextView
             android:id="@+id/title"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@+id/back"
             style="@style/ActionBar_CenterText_Style"
             android:text="自驾租车"
@@ -177,7 +180,8 @@
         <TextView
             android:layout_width="60dp"
             android:layout_height="fill_parent"
-
+            android:clickable="true"
+            android:onClick="click_to_pay"
             android:gravity="center_vertical|left"
             android:text="确定"
 

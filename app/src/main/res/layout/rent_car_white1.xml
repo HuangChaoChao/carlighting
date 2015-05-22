@@ -7,8 +7,8 @@
     <RelativeLayout
         android:id="@+id/rl1"
         android:layout_width="fill_parent"
-        android:layout_height="35dp"
-        android:background="@color/darkcyan"
+        android:layout_height="40dp"
+        android:background="@color/main_theme_color"
         android:gravity="center_vertical"
         >
         <ImageView
@@ -40,6 +40,8 @@
             android:textSize="13dp"
             android:id="@+id/title1"
             style="@style/ActionBar_CenterText_Style"
+            android:clickable="true"
+            android:onClick="click_to_login"
             android:text="登录"
             android:textColor="@color/black"/>
     </RelativeLayout>

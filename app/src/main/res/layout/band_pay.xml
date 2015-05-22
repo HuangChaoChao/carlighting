@@ -7,10 +7,13 @@
         style="@style/ActionBar_Style">
 
         <ImageView
+            android:clickable="true"
+            android:onClick="click_to_back"
             style="@style/ActionBar_LeftImg_Style"
             android:src="@drawable/big_arrow"/>
         <TextView
             android:id="@+id/title"
+            android:layout_centerHorizontal="true"
             style="@style/ActionBar_CenterText_Style"
             android:text="银行卡付款"
             />

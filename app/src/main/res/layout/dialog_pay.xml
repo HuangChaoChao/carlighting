@@ -109,7 +109,7 @@
 
                 android:layout_width="20dp"
                 android:layout_height="fill_parent"
-                android:src="@drawable/单选图标红色"
+                android:src="@drawable/one_option_red"
                 />
             <TextView
                 android:layout_width="60dp"

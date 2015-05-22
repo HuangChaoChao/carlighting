@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/ActionBar_Style">
+    style="@style/ActionBar_Style"
+    android:clickable="true"
+    android:onClick="click_to_back">
 
     <ImageView
         android:id="@+id/back"
@@ -8,9 +10,9 @@
         android:src="@drawable/big_arrow"/>
     <TextView
         android:id="@+id/title"
+        android:layout_marginLeft="5dp"
         android:layout_toRightOf="@+id/back"
         style="@style/ActionBar_CenterText_Style"
-        android:text="登录"
-        />
+        android:text="返回" />
 
 </RelativeLayout>
