@@ -3,17 +3,124 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ff999999">
+    android:background="#cf000000"
+    >
 
     <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
         android:id="@+id/slidingmenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
-        <Button
+
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text = "click me"/>
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/head_photo"
+                android:src="@drawable/login"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="30dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_oval="true"
+                android:layout_marginTop="50dp"
+                android:layout_width="66dp"
+                android:layout_height="66dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crossroads"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/darkgray" />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="click_to_info"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个人信息"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="click_to_wallet" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我的钱包"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="click_to_record" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="租车记录"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="click_to_contribute" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="环保贡献"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray" />
+
+        </LinearLayout>
 
     </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
 </LinearLayout> 

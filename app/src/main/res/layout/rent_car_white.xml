@@ -97,7 +97,9 @@
                 android:layout_weight="1"
                 android:layout_height="fill_parent"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:onClick="click_to_order_car" >
 
                 <ImageView
                     android:layout_marginLeft="20dp"
@@ -108,8 +110,6 @@
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:onClick="click_to_order_car"
                     android:text="预约用车"
                     android:textSize="14dp"
                     android:textColor="@color/black"/>
@@ -128,7 +128,9 @@
                 android:layout_weight="1"
                 android:layout_height="fill_parent"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:onClick="click_to_use_car" >
 
                 <ImageView
                     android:layout_marginLeft="20dp"
@@ -139,8 +141,6 @@
                     android:layout_marginLeft="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:onClick="click_to_use_car"
                     android:text="现在用车"
                     android:textSize="14dp"
                     android:textColor="@color/black"/>
